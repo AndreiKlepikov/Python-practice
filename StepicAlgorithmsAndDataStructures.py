@@ -7,21 +7,26 @@
 #print(bin(B))
 
 #2
-temperature = int(input())
+#temperature = int(input())
 
-if temperature < -25:
-    result = "жутко холодно"
-elif temperature >= -26 and temperature < 0:
-    result = "холодно"
-elif temperature >= 0 and temperature < 10:
-    result = "прохладно"
-elif temperature >= 10 and temperature < 25:
-    result = "тепло"
-else:
-    result = "жара"
+#if temperature < -25:
+#    result = "жутко холодно"
+#elif temperature >= -26 and temperature < 0:
+#    result = "холодно"
+#elif temperature >= 0 and temperature < 10:
+#    result = "прохладно"
+#elif temperature >= 10 and temperature < 25:
+#    result = "тепло"
+#else:
+#    result = "жара"
 
-print(result)
+#print(result)
 
+#3
+line = input()
+numbers = list(map(int, line.split()))
+even_number = next(number for number in numbers if number % 2 == 0)
+print(even_number)
 
 
 
