@@ -23,11 +23,22 @@
 #print(result)
 
 #3
-line = input()
-numbers = list(map(int, line.split()))
-even_number = next(number for number in numbers if number % 2 == 0)
-print(even_number)
+#line = input()
+#numbers = list(map(int, line.split()))
+#even_number = next(number for number in numbers if number % 2 == 0)
+#print(even_number)
 
+#4
+
+N = int(input())
+
+min_number_ending_with_3 = float('inf')
+
+for _ in range(N):
+    number = int(input())
+    if number % 10 == 3 and number < min_number_ending_with_3:
+        min_number_ending_with_3 = number
+print(min_number_ending_with_3)
 
 
 
