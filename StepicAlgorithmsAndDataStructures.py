@@ -30,18 +30,38 @@
 
 #4
 
-N = int(input())
+#N = int(input())
 
-min_number_ending_with_3 = float('inf')
+#min_number_ending_with_3 = float('inf')
 
-for _ in range(N):
-    number = int(input())
-    if number % 10 == 3 and number < min_number_ending_with_3:
-        min_number_ending_with_3 = number
-print(min_number_ending_with_3)
+#for _ in range(N):
+#    number = int(input())
+#    if number % 10 == 3 and number < min_number_ending_with_3:
+#        min_number_ending_with_3 = number
+#print(min_number_ending_with_3)
 
+#5
+#numbers_str = input()
 
+#numbers = list(map(int, numbers_str.split()))
 
+#count_even = 0
+#count_odd = 0
+
+#for number in numbers:
+#    if number % 2 == 0:
+#        count_even += 1
+#    else:
+#        count_odd += 1
+
+#if count_even == count_odd:
+#    result = "equal"
+#elif count_even > count_odd:
+#    result = "even"
+#else:
+#    result = "odd"
+
+#print(result)
 
 
 
@@ -49,3 +69,16 @@ print(min_number_ending_with_3)
 #input()
 #print()
 
+
+
+#Курс олимипиадное программирование
+
+#1
+
+#a = int(input())
+#b = int(input())
+#print(a % b, -a % b, a % -b, -a % -b)
+
+#2
+
+#n, k = map(int, input().split())
